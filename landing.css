@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: rgb(173, 226, 173);
+    color: #fff;
+    
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('pngtree-modern-simple-elegant-cool-gradient-cream-landing-page-website-background-picture-image_1455090.jpg')no-repeat center center/cover;
+    text-align: center;
+     
+    color: violet;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  
+}
+
+#hero .btn {
+    background:white;
+    color: violet;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#features {
+    background: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.feature-item {
+    display: inline-block;
+    width: 30%;
+    margin: 1rem;
+    background: rgb(196, 233, 196);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#about{
+    background: rgb(199, 131, 219);
+    padding: 2rem;
+    text-align: center;
+}
+#testimonials {
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    background: rgb(173, 226, 173);
+    color: black;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer .social-media a {
+    color: rgb(21, 184, 248);
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
